@@ -4,9 +4,9 @@ layout: main
 
 {% for post in paginator.posts %}
 <article class="post">
-  {% assign link_url = post.external_url | default: post.url | prepend: site.baseurl %}
+  {% assign link_url = post.external_url | default: post.url %}
   {% assign is_external = post.external_url %}
-
+  
   {% if post.img %}
     <a class="post-thumbnail"
        style="background-image: url({{ "/assets/img/" | prepend: site.baseurl | append: post.img }})"
