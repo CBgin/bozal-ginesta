@@ -9,13 +9,14 @@ layout: default
       </div>
       <div class="author-name">Carlota<br>Bozal-Ginesta </div>
       <p>{{site.about-author}}</p>
+ 
       <nav class="sidebar-buttons" aria-label="Sidebar primary">
         <a class="btn {% if page.url == '/' %}active{% endif %}"
-          href="{{ '/' | relative_url }}">Projects</a>
+          href="{{ site.baseurl }}/">Projects</a>
         <a class="btn {% if page.url == '/publications/' %}active{% endif %}"
-          href="{{ '/publications/' | relative_url }}">Publications</a>
+          href="{{ site.baseurl }}/publications/">Publications</a>
         <a class="btn {% if page.url == '/about/' %}active{% endif %}"
-          href="{{ '/about/' | relative_url }}">About</a>
+          href="{{ site.baseurl }}/about/">About</a>
       </nav>
     </div>
   </header>
