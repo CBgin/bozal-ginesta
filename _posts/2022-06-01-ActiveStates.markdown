@@ -240,11 +240,11 @@ const runtimeCSVBlobs = {
 };
 
 const filesDefault = [
-  { id: "plot-data",           file: "/assets/data/data_default.csv",          showLegend: true, group: 'group1' },
-  { id: "plot-simulated",      file: "/assets/data/simulated_default.csv",     showLegend: true, group: 'group1' },
-  { id: "plot-error",          file: "/assets/data/error_default.csv",         showLegend: true, group: 'group1' },
-  { id: "plot-coefficients",   file: "/assets/data/coefficients_default.csv",  showLegend: true, group: 'group2' },
-  { id: "plot-concentrations", file: "/assets/data/gradients_default.csv",     showLegend: true, group: 'group2' }
+  { id: "plot-data",           file: "{{ site.baseurl }}/assets/data/data_default.csv",          showLegend: true, group: 'group1' },
+  { id: "plot-simulated",      file: "{{ site.baseurl }}/assets/data/simulated_default.csv",     showLegend: true, group: 'group1' },
+  { id: "plot-error",          file: "{{ site.baseurl }}/assets/data/error_default.csv",         showLegend: true, group: 'group1' },
+  { id: "plot-coefficients",   file: "{{ site.baseurl }}/assets/data/coefficients_default.csv",  showLegend: true, group: 'group2' },
+  { id: "plot-concentrations", file: "{{ site.baseurl }}/assets/data/gradients_default.csv",     showLegend: true, group: 'group2' }
 ];
 
 const colormaps = { group1: [], group2: [] };
@@ -390,7 +390,7 @@ document.addEventListener('DOMContentLoaded', renderAllPlots);
 
   async function loadDefaultGaussians() {
     try {
-      const resp = await fetch("/assets/data/gaussians_default.csv");
+      const resp = await fetch("{{ site.baseurl }}/assets/data/gaussians_default.csv");
       const text = await resp.text();
 
       const rows = text.trim().split("\n");
@@ -607,12 +607,12 @@ optimized_gaussians.to_csv("optimized_gaussians.csv", index=False)
         Published data (<a href="https://pubs.acs.org/doi/abs/10.1021/acscatal.1c03290" target="_blank" rel="noopener noreferrer">ACS Catal. 2021, 11, 24</a>)
       </h4>
       <div class="dl-grid">
-        <a class="dl-btn" href="/assets/data/data_default.csv" download>Download data.csv</a>
-        <a class="dl-btn" href="/assets/data/simulated_default.csv" download>Download simulated.csv</a>
-        <a class="dl-btn" href="/assets/data/error_default.csv" download>Download error.csv</a>
-        <a class="dl-btn" href="/assets/data/coefficients_default.csv" download>Download coefficients.csv</a>
-        <a class="dl-btn" href="/assets/data/gradients_default.csv" download>Download gradients.csv</a>
-        <a class="dl-btn" href="/assets/data/gaussians_default.csv" download>Download gaussians.csv</a>
+        <a class="dl-btn" href="{{ site.baseurl }}/assets/data/data_default.csv" download>Download data.csv</a>
+        <a class="dl-btn" href="{{ site.baseurl }}/assets/data/simulated_default.csv" download>Download simulated.csv</a>
+        <a class="dl-btn" href="{{ site.baseurl }}/assets/data/error_default.csv" download>Download error.csv</a>
+        <a class="dl-btn" href="{{ site.baseurl }}/assets/data/coefficients_default.csv" download>Download coefficients.csv</a>
+        <a class="dl-btn" href="{{ site.baseurl }}/assets/data/gradients_default.csv" download>Download gradients.csv</a>
+        <a class="dl-btn" href="{{ site.baseurl }}/assets/data/gaussians_default.csv" download>Download gaussians.csv</a>
       </div>
     </div>
   </div>
