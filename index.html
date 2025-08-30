@@ -1,0 +1,36 @@
+---
+layout: main
+---
+
+{% for post in paginator.posts %}
+<article class="post">
+  {% assign link_url = post.external_url | default: post.url | prepend: site.baseurl %}
+  {% assign is_external = post.external_url %}
+
+  {% if post.img %}
+    <a class="post-thumbnail"
+       style="background-image: url({{ "/assets/img/" | prepend: site.baseurl | append: post.img }})"
+       href="{{ link_url }}"
+       {% if is_external %}target="_blank" rel="noopener"{% endif %}></a>
+  {% endif %}
+
+  <div class="post-content">
+    <h2 class="post-title">
+      <a href="{{ link_url }}" {% if is_external %}target="_blank" rel="noopener"{% endif %}>
+        {{ post.title }}
+      </a>
+    </h2>
+
+    {%- assign excerpt_html = post.excerpt | markdownify
+      | replace: '<a ', '<span '
+      | replace: '</a>', '</span>'
+      | replace: ' style="text-align: justify;"', ''
+      | replace: 'style="text-align: justify;"', '' -%}
+    {{ excerpt_html }}
+
+    <span class="post-date">{{ post.date | date: '%Y, %b' }}&nbsp;&nbsp;</span>
+  </div>
+</article>
+{% endfor %}
+
+{% include pagination.html %}

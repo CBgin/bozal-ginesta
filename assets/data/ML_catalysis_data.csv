@@ -1,0 +1,42 @@
+﻿Data type,Reaction type,Average number of datapoints,Input,Average R2,Output,Ref.
+Computational,CO and CO2 reactivity,171,atomic,0.875,adsorption,https://doi.org/10.1021/acs.jpcc.0c05964
+Computational,CO and CO2 reactivity,263,atomic electronic structural,0.982,binding,https://doi.org/10.1039/D0TA06203K
+Computational,Other,4258,structural,0.96,activity,https://doi.org/10.1039/C7RA06622H
+Computational,Water splitting,19000,atomic structural,0.872,binding,https://doi.org/10.48550/arXiv.2305.19930
+Computational,Water splitting,250,atomic composition,0.95775,activity,https://doi.org/10.1063/5.0009129
+Computational,Other,2853,structural composition,0.83,binding,https://doi.org/10.1038/s43588-023-00437-y
+Computational,Water splitting,690,synthesis composition,0.893,activity,https://doi.org/10.1021/acs.jpcc.8b08386
+Computational,Water splitting,1125,atomic composition electronic,0.826,adsorption,https://doi.org/10.1039/D3TA00344B
+Computational,Water splitting,299,atomic composition,0.96,adsorption,https://doi.org/10.1021/acs.jpcc.0c02265
+Computational,CO and CO2 reactivity,1629,composition,0.702255,adsorption,https://doi.org/10.1021/jacs.8b08800
+Computational,Water splitting,48,composition electronic,0.83,binding,https://doi.org/10.1021/acs.jpclett.9b03875
+Computational,Nitrogen reactivity,1092.25,composition atomic,0.986666667,binding formation_energy,https://doi.org/10.1021/acs.jpclett.7b02010
+Computational,Other,99,thermodynamic,0.96,diffusion activation_energy,https://doi.org/10.1038/s41524-020-00411-6
+Computational,CO and CO2 reactivity,91,composition electronic,0.8395,adsorption,https://doi.org/10.1063/1.3369007
+Computational,CO and CO2 reactivity,164,composition thermodynamic,0.86016,adsorption,https://doi.org/10.1038/ncomms14621
+Computational,Water splitting,36000,atomic composition structural,0.95,formation_energy,https://doi.org/10.1021/jacs.4c01353
+Computational,Water splitting,10440,atomic composition thermodynamic,0.961,binding,https://doi.org/10.1021/jacs.3c14486
+Computational,Other,476000,structural,0.882,adsorption,https://doi.org/10.1038/s42256-024-00930-7
+Experimental,CO and CO2 reactivity,1201,synthesis reaction atomic,0.81,space_time_yield,https://doi.org/10.1016/j.apcatb.2022.121530
+Experimental,CO and CO2 reactivity,225,atomic reaction,0.76,space_time_yield,https://doi.org/10.1021/acscatal.2c04349
+Experimental,CO and CO2 reactivity,718,atomic reaction composition,0.85,yield,https://doi.org/10.1016/j.cej.2021.131285
+Experimental,Methane reactivity,200,composition reaction,0.99,conversion,https://doi.org/10.1002/aic.12748
+Experimental,Water splitting,24,structural composition,0.9,polarization_resistance,https://doi.org/10.1016/j.cattod.2010.06.019
+Experimental,Other,58,synthesis atomic,0.91,rate,https://doi.org/10.1016/j.apcata.2010.04.012
+Experimental,CO and CO2 reactivity,344,composition,0.8,conversion,https://doi.org/10.1002/qsar.200430900
+Experimental,Methane reactivity,27,reaction,0.915,yield conversion,https://doi.org/10.1016/j.ijhydene.2016.04.034
+Experimental,Methane reactivity,12708,composition reaction,0.79,yield selectivity,https://doi.org/10.1021/acscatal.9b04293
+Experimental,Other,36,structural reaction,0.925,porosity,https://doi.org/10.1016/j.renene.2022.11.061
+Experimental,CO and CO2 reactivity,4360,composition reaction,0.905,conversion,https://doi.org/10.1016/j.ijhydene.2014.01.160
+Experimental,Water splitting,540,atomic synthesis composition reaction,0.7,rate bandgap,https://doi.org/10.1016/j.apcatb.2018.09.104
+Experimental,Methane reactivity,5521,synthesis composition reaction,0.89,conversion,https://doi.org/10.1016/j.cattod.2017.05.012
+Experimental,Other,271,composition reaction,0.9,current_density,https://doi.org/10.1016/j.cherd.2015.11.018
+Experimental,Other,1324,synthesis composition reaction,0.87,conversion,https://doi.org/10.1002/bbb.1650
+Experimental,CO and CO2 reactivity,4585,synthesis composition reaction,0.874,conversion,https://doi.org/10.1002/cctc.201200665
+Experimental,CO and CO2 reactivity,882,synthesis composition reaction,0.922,rate,https://doi.org/10.1016/j.apcata.2013.08.056
+Experimental,CO and CO2 reactivity,1337,synthesis composition reaction,0.944,conversion,https://doi.org/10.1021/ie2013955
+Experimental,Other,15,electronic reaction,0.865,conversion yield selectivity,https://doi.org/10.1039/C5CY00932D
+Experimental,Other,24,electronic reaction,0.8,yield,https://doi.org/10.1039/C2CY20193C
+Experimental,Water splitting,29,reaction,1,yield,https://doi.org/10.1016/j.apcatb.2017.03.016
+Experimental,Other,26,synthesis composition atomic reaction,0.99,conversion,https://doi.org/10.1021/ie5010866
+Experimental,Other,30,reaction,0.9,porosity,https://doi.org/10.1016/j.jclepro.2018.12.093

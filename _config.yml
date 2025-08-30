@@ -1,0 +1,37 @@
+title: Carlota Bozal-Ginesta
+permalink: ':title/'
+baseurl: ""
+url: "https://curly-disco-8j7qepk.pages.github.io"
+theme: null
+site-twitter: BozalGinesta
+
+
+# Personal Settings
+author: "Carlota\nBozal-Ginesta"
+author-img: carlota-bozalginesta.jpg
+about-author: fusing machine learning and spectroscopy to build electrodes for clean energy storage and conversion
+social-twitter: BozalGinesta
+social-scholar: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=0tUig8MAAAAJ
+social-github:
+social-linkedin: carlota-bozal-ginesta
+social-email: carlota.bozalginesta@empa.ch
+
+# Disqus
+discus-identifier:
+
+# Tracker
+analytics:
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+excerpt_separator: "<!--more-->" 
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

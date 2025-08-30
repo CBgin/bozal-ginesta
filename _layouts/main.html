@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
+      </div>
+      <div class="author-name">Carlota<br>Bozal-Ginesta </div>
+      <p>{{site.about-author}}</p>
+      <nav class="sidebar-buttons" aria-label="Sidebar primary">
+        <a class="btn {% if page.url == '/' %}active{% endif %}"
+          href="{{ '/' | relative_url }}">Projects</a>
+        <a class="btn {% if page.url == '/publications/' %}active{% endif %}"
+          href="{{ '/publications/' | relative_url }}">Publications</a>
+        <a class="btn {% if page.url == '/about/' %}active{% endif %}"
+          href="{{ '/about/' | relative_url }}">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">For more</h3>
+      <ul>
+        {% if site.social-email %}
+          <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
+        {% endif %}
+        <li>
+          <a href="https://scholar.google.com/citations?user=0tUig8MAAAAJ&hl=en&oi=ao" target="_blank">
+            <img src="{{ site.baseurl }}/assets/img/googlescholar.svg" alt="Google Scholar" style="width:1em;height:0.9em;vertical-align:-.105em;opacity:.70;">
+          </a>
+        </li>
+        <li>
+          <a href="https://orcid.org/0000-0001-7299-5869" target="_blank">
+            <img src="{{ site.baseurl }}/assets/img/orcid.svg" alt="ORCID" style="width:1em;height:1em;vertical-align:-0.195em;opacity:.70;">
+          </a>
+        </li>
+        {% if site.social-github %}
+          <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+        {% endif %}
+        {% if site.social-linkedin %}
+          <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        {% endif %}
+        {% if site.social-twitter %}
+          <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        {% endif %}
+      </ul>
+    </section>
+    <div class="copyright">
+      <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
+    </div>
+  </footer>
+</aside>
+<div class="content-box clearfix">
+  {{ content }}
+</div>

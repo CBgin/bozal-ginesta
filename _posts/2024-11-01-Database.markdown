@@ -1,0 +1,9 @@
+---
+layout: post
+title: High-throughput analysis of high entropy electrocatalysts
+img: combinatorial.png
+date: 2024-11-01
+external_url: "https://nanoionicshub.github.io/LSMCF_database/" 
+---
+
+Database of perovskite oxides for solid oxide fuel cells prepared with combinatorial pulsed laser deposition and characterized with five different techniques.
