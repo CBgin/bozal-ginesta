@@ -216,7 +216,7 @@ function plotHistogram(data, xKey, yKey) {
 }
 
 // Load default TSV file from /assets/
-fetch('/assets/data/ML_catalysis_data.csv')
+fetch('{{ site.baseurl }}/assets/data/ML_catalysis_data.csv')
   .then(res => res.text())
   .then(text => {
     const data = parseTSV(text);
@@ -249,5 +249,5 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
-<p>Download the data: <a href="/assets/ML_catalysis_data.csv" download><button>Download</button></a><br>
+<p>Download the data: <a href="{{ site.baseurl }}/assets/ML_catalysis_data.csv" download><button>Download</button></a><br>
 Upload your own data, keeping the same labels and format: <input type="file" id="csv-upload" accept=".csv" /></p>
