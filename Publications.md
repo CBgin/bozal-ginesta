@@ -14,7 +14,13 @@ img: publications.png
 
 <div class="pubs" markdown="1">
 
-<a href="https://www.sciencedirect.com/science/article/pii/S1388248125001742" target="_blank">Activity and stability proxies for automated evaluation of IrO<sub>x</sub> electrocatalysts under variable operating conditions</a>, *Electrochem. Chem.*, 2025, 179, 108035, Huang, G., **Bozal-Ginesta, C.**, Aspuru-Guzik, A.
+<a href="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15004057/v1](https://chemrxiv.org/doi/full/10.26434/chemrxiv.15003357/v2" target="_blank">Depth-aware machine learning for 3D reconstruction of fibrous porous polymers by FIB-SEM tomography</a>, *ChemRxiv*, 2026, 15003357, **Bozal-Ginesta, C.**, Bissattini Alessi, C., Zeng, P., Ruellou, J., Drnec, J., Senocrate, A., Battaglia, C.
+
+<a href="https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/admi.202500863](https://chemrxiv.org/doi/full/10.26434/chemrxiv.15004057/v1" target="_blank">Rapid evaluation of glassy carbon electrode surface with machine vision</a>, *ChemRxiv*, 2026, 15004057, Akkoc, G.D., Yoshikawa, N., **Bozal-Ginesta, C.**, Pablo-García, S., Hao, H., Aspuru-Guzik, A., Dworschak, D.
+
+<a href="https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/admi.202500863" target="_blank">Glow discharge optical emission spectroscopy for chemical characterization of complex oxide thin films and interfaces</a>, *Adv. Mater. Interfaces*, 2025, 179, 108035, Laa, L., Nuñez‐Eroles, M., Sirvent, J., Sukumaran, S., Nizet, P., Chiabrera, F., **Bozal-Ginesta, C.**, Skinner, S., Morata, A., Baiutti, F., Tarancón, A.
+
+<a href="https://www.sciencedirect.com/science/article/pii/S1388248125001742" target="_blank">Activity and stability proxies for automated evaluation of IrO<sub>x</sub> electrocatalysts under variable operating conditions</a>, *Electrochem. Chem.*, 2026, 13:e00863, Huang, G., **Bozal-Ginesta, C.**, Aspuru-Guzik, A.
 
 <a href="https://www.nature.com/articles/s41570-025-00740-4" target="_blank">Developing machine learning for heterogeneous catalysis with experimental and computational data</a>, *Nat. Chem. Rev.*, 2025, 384, 756,  **Bozal-Ginesta, C.**, Pablo-García, S., Choi, C., Tarancón, A-, Aspuru-Guzik, A. <a href="https://chemrxiv.org/engage/chemrxiv/article-details/67c60d91fa469535b9c86ecf" target="_blank">*ChemRxiv*</a> version.
 
