@@ -18,7 +18,7 @@ img: publications.png
 
 <a href="https://chemrxiv.org/doi/abs/10.26434/chemrxiv.15010072/v1" target="_blank">High-Throughput Compositional Tuning of Thin-Film (La,Ca)MnO<sub>3</sub> Perovskites as Bifunctional Oxygen Catalysts</a>, *ChemRxiv*, 2026, 15010072, Laa, L., Przybysz, J.M., Nuñez‐Eroles, M., Berthou, W., Chiabrera, F., **Bozal-Ginesta, C.**, Morata, A., Baiutti, F., Cherevko, S., Tarancon, A.
 
-<a href="https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/admi.202500863](https://chemrxiv.org/doi/full/10.26434/chemrxiv.15004057/v1" target="_blank">Rapid evaluation of glassy carbon electrode surface with machine vision</a>, *ChemRxiv*, 2026, 15004057, Akkoc, G.D., Yoshikawa, N., **Bozal-Ginesta, C.**, Pablo-García, S., Hao, H., Aspuru-Guzik, A., Dworschak, D.
+<a href="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15004057/v1" target="_blank">Rapid evaluation of glassy carbon electrode surface with machine vision</a>, *ChemRxiv*, 2026, 15004057, Akkoc, G.D., Yoshikawa, N., **Bozal-Ginesta, C.**, Pablo-García, S., Hao, H., Aspuru-Guzik, A., Dworschak, D.
 
 <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/smtd.71142" target="_blank">Depth-aware machine learning for 3D reconstruction of fibrous porous electrodes by FIB-SEM tomography</a>, *Small Methods*, 2026, 10:e71142, **Bozal-Ginesta, C.**, Bissattini Alessi, C., Zeng, P., Ruellou, J., Drnec, J., Senocrate, A., Battaglia, C.
 
