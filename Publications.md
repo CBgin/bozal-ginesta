@@ -14,9 +14,15 @@ img: publications.png
 
 <div class="pubs" markdown="1">
 
-<a href="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15004057/v1](https://chemrxiv.org/doi/full/10.26434/chemrxiv.15003357/v2" target="_blank">Depth-aware machine learning for 3D reconstruction of fibrous porous polymers by FIB-SEM tomography</a>, *ChemRxiv*, 2026, 15003357, **Bozal-Ginesta, C.**, Bissattini Alessi, C., Zeng, P., Ruellou, J., Drnec, J., Senocrate, A., Battaglia, C.
+<a href="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15012597/v1" target="_blank">Correlating CO<sub>2</sub> reduction selectivity with ML-quantified morphology of surface Cu and cracks in gas diffusion electrodes</a>, *ChemRxiv*, 2026, 15012597, **Bozal-Ginesta, C.**, Senocrate, A., Bissattini Alessi, C., Beiglböck, F., Rosado, M., Ballesteros, B., Battaglia, C.
+
+<a href="https://chemrxiv.org/doi/abs/10.26434/chemrxiv.15010072/v1" target="_blank">High-Throughput Compositional Tuning of Thin-Film (La,Ca)MnO<sub>3</sub> Perovskites as Bifunctional Oxygen Catalysts</a>, *ChemRxiv*, 2026, 15010072, Laa, L., Przybysz, J.M., Nuñez‐Eroles, M., Berthou, W., Chiabrera, F., **Bozal-Ginesta, C.**, Morata, A., Baiutti, F., Cherevko, S., Tarancon, A.
 
 <a href="https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/admi.202500863](https://chemrxiv.org/doi/full/10.26434/chemrxiv.15004057/v1" target="_blank">Rapid evaluation of glassy carbon electrode surface with machine vision</a>, *ChemRxiv*, 2026, 15004057, Akkoc, G.D., Yoshikawa, N., **Bozal-Ginesta, C.**, Pablo-García, S., Hao, H., Aspuru-Guzik, A., Dworschak, D.
+
+<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/smtd.71142" target="_blank">Depth-aware machine learning for 3D reconstruction of fibrous porous electrodes by FIB-SEM tomography</a>, *Small Methods*, 2026, 10:e71142, **Bozal-Ginesta, C.**, Bissattini Alessi, C., Zeng, P., Ruellou, J., Drnec, J., Senocrate, A., Battaglia, C.
+
+<a href="https://pubs.rsc.org/ta/article/14/43/29435/1263895/Mixed-dimensional-multi-walled-carbon-nanotubes-as" target="_blank">Mixed-dimensional multi-walled carbon nanotubes as a conductive network for improved lithium-ion battery performance</a>, *J. Mater. Chem. A*, 2026, 14, 43, 29435–29446, Saadun, A.J., Lacey, S.D., Surace, Y., Mohammad, I., Jägle, K., Trentin, I., Curcio, A., Moysiadou, A., Quérel, E., Bizzotto, F., **Bozal-Ginesta, C.**, Axmann, P., Battaglia, C., Klunker, F., Kühnel, R.S.
 
 <a href="https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/admi.202500863" target="_blank">Glow discharge optical emission spectroscopy for chemical characterization of complex oxide thin films and interfaces</a>, *Adv. Mater. Interfaces*, 2025, 179, 108035, Laa, L., Nuñez‐Eroles, M., Sirvent, J., Sukumaran, S., Nizet, P., Chiabrera, F., **Bozal-Ginesta, C.**, Skinner, S., Morata, A., Baiutti, F., Tarancón, A.
 
